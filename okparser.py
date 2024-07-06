@@ -1,3 +1,7 @@
+# Если авторизация не нужна, закоментируйте login() в методе main
+
+
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pickle
