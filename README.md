@@ -1,5 +1,5 @@
 # Odnoklassniki-Photo-Parser
 Скачивает фотографии с альбомов 
 # Зависимости
-Firefox
+Firefox\n
 python модули: pickle selenium bs4 progress
