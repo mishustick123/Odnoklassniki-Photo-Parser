@@ -13,7 +13,7 @@ def login():
     cookies = pickle.load(open("cookies.pkl", "rb"))
     for cookie in cookies:
         browser.add_cookie(cookie)
-    browser.get('https://ok.ru/olga.maksimenko.olga.kisya/album/858950572186')
+    browser.get('Тут введи ссылку на альбом')
 
 def ScrollToDown():
     lenOfPage = browser.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
